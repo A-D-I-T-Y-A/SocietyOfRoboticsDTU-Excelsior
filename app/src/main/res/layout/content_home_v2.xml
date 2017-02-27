@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home_v2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.srdtu.srdtu.HomeV2"
+    tools:showIn="@layout/activity_home_v2">
+
+
+
+    <fragment
+        android:layout_marginTop="10dp"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:id="@+id/youtube_videoV2"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </fragment>
+
+    <ScrollView
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="#00000000"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_weight="2.5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/homev2_events"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_screen_button_rounded"
+                android:layout_marginBottom="15dp"
+                android:text="Events"
+                android:textColor="@color/colorhomev2text"
+                android:typeface="monospace"/>
+
+            <Button
+                android:id="@+id/homev2_myevents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_screen_button_rounded"
+                android:text="My Events"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorhomev2text"
+                android:typeface="monospace"/>
+
+            <Button
+                android:id="@+id/homev2_council"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_screen_button_rounded"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Council"
+                android:textColor="@color/colorhomev2text"
+                android:typeface="monospace"/>
+
+            <Button
+                android:id="@+id/homev2_contactus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_screen_button_rounded"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Contact Us"
+                android:textColor="@color/colorhomev2text"
+                android:typeface="monospace"/>
+
+            <Button
+                android:id="@+id/homev2_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_screen_button_rounded"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Share"
+                android:textColor="@color/colorhomev2text"
+                android:typeface="monospace"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banner"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:layout_weight="1"/>
+
+</LinearLayout>

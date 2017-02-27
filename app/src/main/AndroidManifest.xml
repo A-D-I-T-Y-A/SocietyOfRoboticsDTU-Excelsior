@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.srdtu.srdtu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventsList"
+            android:label="@string/title_activity_events_list"
+            android:parentActivityName=".HomeV2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.srdtu.srdtu.HomeV2" />
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us"
+            android:parentActivityName=".HomeV2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.srdtu.srdtu.HomeV2" />
+        </activity>
+        <activity
+            android:name=".EventViewer"
+            android:label="@string/title_activity_event_viewer"
+            android:parentActivityName=".EventsList"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.srdtu.srdtu.EventsList" />
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyEvents"
+            android:label="@string/title_activity_my_events"
+            android:parentActivityName=".HomeV2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.srdtu.srdtu.HomeV2" />
+        </activity>
+        <activity
+            android:name=".HomeV2"
+            android:label="@string/title_activity_home_v2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FestCouncil"
+            android:label="@string/title_activity_fest_council"
+            android:parentActivityName=".HomeV2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.srdtu.srdtu.HomeV2" />
+        </activity>
+    </application>
+
+</manifest>

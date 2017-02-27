@@ -1,0 +1,398 @@
+<resources>
+    <string name="app_name">SRDTU</string>
+    <string name="title_activity_nav_drawer_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_events_list">Events</string>
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+    <string-array name="event_names">
+        <item>Bend it like Asimove (Robot Soccer)</item>
+        <item>Botzilla (Robot War)</item>
+        <item>Bomb Barrage</item>
+        <item>Chasing a Mirage (Laser Maze)</item>
+        <item>Code Safari</item>
+        <item>Crack the Company</item>
+        <item>Creating Talks</item>
+        <item>Eureka (Research Paper)</item>
+        <item>Fast\'17 (Robot Race)</item>
+        <item>Fastest Line Follower (LFR)</item>
+        <item>IC ART</item>
+        <item>Java Derby</item>
+        <item>Mock Stock</item>
+        <item>Pull it that way</item>
+        <item>Quidditch</item>
+        <item>Quizzards</item>
+        <item>Silicon Valley</item>
+        <item>Simulate One, Complete One</item>
+    </string-array>
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="title_activity_event_viewer">Event</string>
+
+    <string name="Chasing1"> \"CHASING A MIRAGE- LASER MAZE\" is time based fun event where participants have to negotiate the laser beams without breaking them and reach the  requisite destination.
+\n
+\n1.The Event will comprises of two rounds
+\n
+\nFirst round will be an elimination round. Participants have to cross the maze in a specified time(time will be added on breaking laser).All those who complete this task will qualify for the next round.
+\n
+\n2.Second round will test the speed of the qualified participants. With increased difficulty level and obstacles the task would be to cross the maze in least time. The person who crosses the maze in minimum time will be declared as the winner.
+\n
+\n
+\nFor any queries contact 
+\n
+\nRitesh Mehta : 7503229899
+\n
+\nPawan : 7042710957</string>
+    
+    <string name="Silicon1">\"SILICON VALLEY\" is verilog based technical event where participants have to design digital circuits using hardware descriptive language (HDL) Verilog.
+\n
+\n*It will test your knowledge on digital logics, verilog HDL , and aptitude through quiz and coding.
+\n
+\nFor further details:
+\n
+\nhttps://drive.google.com/file/d/0B0D7yKP2X9PmeDAxU1pFM281Y0k/view?usp=sharing
+\n
+\nFor queries contact:
+\n
+\nShubham Rana:+91 9910108546
+\nSooraj Chandra:+91 7838862470
+\nShubham Parmar:+91 8285685040</string>
+
+    <string name="Bend1">Robosoccer@Excelsior 2k17 is back.The event is a manual Robot’s Soccer challenge where we
+aim to find the champion soccer master in Robots. Participants would be bringing their Robotic
+marvels to battle it out for the ultimate glory.
+\n
+\nFor further queries contact:
+\nAkash: 7838967586
+\nSuyash: 9971492256
+\nAnshul: 9873296026
+\nPrateek: 7838408920
+\n
+\nGuidelines of the event : https://docs.google.com/document/d/1tJ6tx2ya3zQhF3F1s_WTlLQJkWMgSdkwKmN-WW6twdk/edit?usp=sharing</string>
+    
+    <string name="Quizzards1">Quizardz is the General Quiz organised as a part of Excelscior , the annual techfest of SRDTU.
+\nEvent Details :
+\n•	It consists of Multiple Rounds ( Prelims, Buzzer Round, Connect, Rapid Fire).
+\n•	Prelims will be general pen paper Quiz.
+\n•	Top Teams will advance to next rounds.
+\n
+\nFor any Queries contact
+\nPARAS JAIN  : 9560344692
+\nPRASHANT :  8285464956
+\n
+\nFor further details :
+\nhttps://drive.google.com/file/d/0BxKffq_5ov6rd1VnQWpVTlIzZm8/view?usp=drivesdk</string>
+
+    <string name="Java1">It\'s an event to showcase your coding skills in Java. The event will consist of two rounds, out of which first one will the offline round. Top 20 teams from first round will advance to final round which will be an on site coding event having problems on data structures and algorithms. Top 3 teams after this round will get exciting prizes.
+\n
+\nFor more details of this event, click on the link below-
+\n
+\nhttps://drive.google.com/open?id=0By5Uqk0PMQgYS010eXR2aWRsS3M
+\n
+\n
+\nFor any queries, contact:
+\n
+\nLakshay Grover 9560615300
+\nRishabh Gupta 8860971936
+\nDamandeep Singh 9711751051
+\nAkash Verma 7838967586</string>
+
+    <string name="Botzilla1">Aa dekhen zara, kisme  kitna hai dum!
+\nRobo war@excelsior 2k17 is back. This event is a robot war challenge aim to find strongest of all.
+\n
+\nGuidelines of the event:
+\nhttps://drive.google.com/file/d/0BwyGK4UUVDkeQjFhYlhtVXRfS2s/view?usp=drivesdk
+\n
+\nFor any queries contact:
+\nDamandeep Singh 9711751051
+\nNitin kansotia 7210017279
+\nRitesh 7503229899</string>
+    
+    <string name="Fast1">\“Patience and perseverance have a magical effect before which difficulties disappear and obstacles vanish\”- John Quincy Adams
+\n
+\n
+\nBrace yourselves for the most happening event of DTU i.e FAST\’17 ! After the immense success of FAST\’16   @Excelsior 2016 we are back with the FAST\’17  in the SRDTU technical fest –EXCELSIOR 2017.
+\nSo, get ready to compete and showcase your technical skills in this robotics event.
+\nHAIL ROBOTICS !
+\n
+\nEVENT’S  GUIDELINES
+\n
+\nhttps://drive.google.com/file/d/0ByHY-ufipsJsOTRQeTZLd0ZiNG8/view?usp=sharing
+\n
+\nFor further query contact:
+\nPrateek - 7838408920
+\nRaj kumar - 9582490323
+\nRitesh - 7503229899
+\nRohan - 9654418334</string>
+    
+    <string name="Simulate1">Are you a hardware enthusiast? Does the sound of running motors seem music to your ears? Then this is just the right thing for you.
+\n
+\nEXCELSIOR 2017 brings to you the SIMULATE ONE COMPLETE ONE event wherein you have to implement hardware using simulation software PROTEUS/PSPICE.
+\n
+\nThe event consists of 2 rounds and the participants are allowed in teams of 3.
+\n
+\nEvent guidelines:-
+\nhttps://docs.google.com/document/d/1Pyfr2wnXE5LbYHMYXdfdpu7Km-I96dIAJS_nxu_xnWg/edit?usp=drivesdk
+\n
+\nWinners will get attractive cash rewards and goodies in the form of electronic goods/hardwares.
+\n
+\nFor any queries, contact:
+\nSandeep:- 8130436268
+\nMohit:- 8860597999</string>
+
+    <string name="IC1">IC - ART is the open hardware competition organised by society of robotics every year in tech fest.
+\nThis event gives you the opportunity to present your handiwork.
+\n
+\nFor further details:
+\nhttps://drive.google.com/file/d/0B1vF7sz25eKrcGxyUU5LclJhUjA/view?usp=sharing
+\n
+\nFor further query contact:
+\nNeha - 9990551770
+\nRaj Kumar -  9582490323</string>
+    
+    <string name="Crack1">Participants will be competing for their dream companies and experience what it is really like to sit for placements.
+\n
+\nThis is just not going to be a big challenge but also a great learning experience.
+\n
+\nWinners will be getting exciting prizes.
+\n
+\nFor more information, click on the link below.
+\n
+\nhttps://docs.google.com/document/d/1LXWRlM857QMOkCPVO7NzZ2LdpUyrvpjTn5uwQtN-1hI/edit?usp=sharing
+\n
+\nFor any queries, contact:
+\nAnshul: 9873296026
+\nAyush Joshi: 9643513184</string>
+    
+    <string name="Fastest1">Do you have the zest for bots and electronics?
+\nIf CKTing and robotics appeal to you, SR-DTU brings to you the LFR event in its annual techfest \'Excelsior\'.
+\n
+\nLFR , the Line Following Robot will be made to follow a given track and complete it within the minimum time.
+\n
+\nFor noobies, this is the head start you need in robotics.
+\nFor PROs, clichéd but a real check on your optimization skills in robotics.
+\n
+\nSo get your hands on the sensors and get set to race your way to success!!
+
+\nCan your bot make it?
+\nCome , Challenge yourself coz simple doesn\'t imply easy!!
+\n
+\nFor queries contact:
+\nNida-e-Falak : 9599436228
+\nRaunak Kapur : 8826482940</string>
+    
+    <string name="Code1">CODE IT TO WIN IT
+\nTo all the code patrons out there, Excelsior is back with one of its most exigent event , Code Safari.
+\n
+\nCode Safari is a one day coding extravaganaza with a unique structure of questions.
+\nTeams of upto two people are welcome.
+\n
+\nThe Event shall be conducted in 3 stages.
+\n
+\n
+\nThese questions will test your code limits. We dare you!!
+\n
+\nFierce competition and tons of fun awaits you.</string>
+
+    <string name="Quidditch1">DETAILS:
+\nFor the first time in Exclsior\'s history, Drones will fill the sky, dashing to complete the circuit fastest.
+\nEvent Details :
+\n•	It consists of Two Rounds, both in which drones will complete a circuit.
+\n•	Drones will have to pass through Checkpoints fixed at different heights.
+\n•	Drones taking the minimum time will qualify for Round II.
+\n
+\nFor any Queries contact
+\nRISHAV KUMAR DOKANIA : 9213718759
+\nSHUBHAM PANJARATH :  7838234232
+\n
+\nFor further details :
+</string>
+
+    <string name="Bomb1">\"Problems are not stop signs, they are just guidelines\"
+\n
+\nPresenting a first-ever, problem based event which would test your mind and control on the robots you make. Presenting the highlight of EXCELSIOR \'17 - \"Bomb Barrage\". So rev up your robots and run your minds to perform in this immensely exciting event.
+\nHAIL ROBOTICS!
+\n#AngoothaLagvaLo
+\n
+\nEvent Description:
+\nhttps://docs.google.com/document/d/1dbfhyCBtG602C4W7avinuhMjSWtMZMLOrC8Jnl8LsaA/edit?usp=sharing
+\n
+\nContact:
+\nVansh: 8559944886</string>
+
+    <string name="Mock1">Mock Stock - Walk down Dalal Street is the offline stock market event organised as a part of excelscior , the annual tech fest of SR-DTU.
+\nEvent Details:
+\n> Participation is individual only.
+\n> 1 day event, no rounds.
+\n> Only intraday transactions allowed.
+\n> Trading will take place according to the Indian trading hours ie 9:15am to 3:30pm for all .
+\n> Trading allowed in stock,index,commodities and forex futures.
+\nFor further queries,
+\nAyush Joshi- 9643513184
+\nNakul- 9650356007</string>
+
+    <string name="Creating1">Lights, Camera,Creating Talks!!
+\n
+\nExperience the future,make it ,shape it. Be good on the ideas you\'ve got. Meet the speakers changing our country and lives each day.
+\n
+\nBe Ready to listen and interact with Techno geeks, Enterpenurs, Socialist, Young Dreamers, Future Technology maker, Artists and so many other famous personalities under one roof.
+\n
+\nEnjoy a day power packed with fun, knowledge and experience.
+\n
+\nBe ready to give your plans a direction because it\'s about empowering yourself. Experience the true Indian power.
+\n
+\nListen, learn, empower.
+\nStart Creating Talks!!
+\nwww.creatingtalks.com</string>
+
+    <string name="Eureka1">The ultimate aim of scientific research is to promote new knowledge and understanding of the world in which we live. From reading and observation one comes up with a basic concept. This idea permits formulation of a meaningful question or hypothesis to which an answer may be found through a suitably designed experiment.
+\n
+\nEUREKA : A paper / project presentation event would be organised during the Society of Robotics Annual technical fest EXCELSIOR 2015
+\nRound 1 : Abstract Shortlisting
+\nRound 2 : Presentation
+\nSelected presentation would be given an opportunity to work with SR-DTU team to materialize their ideas in useful products apart from the prize and certificates.
+\nCONTACT
+\nNakul Sharma - 9650356007</string>
+
+    <string name="Pull1">The ROBOTS TUG OF WAR event of Excelsior\'17
+\n
+\nSpecifications :
+\nhttps://www.dropbox.com/s/jutuvv6pf7jlewg/TugOfWar.pdf?dl=0
+\n
+\nContact :
+\nRohan - 9654418334</string>
+
+    <string name="council_list1">
+        \nCONVENOR
+        \nVaanshik Mahindroo
+        \n\nPRESIDENT
+        \nEklovey Verma
+        \n\nVICE PRESIDENT
+        \nNakul Sharma
+        \n\nTREASURER
+        \nShefali Awana
+        \n\nJOINT TREASURER
+        \nPrateek Bhagat
+        \n\nEVENT MANAGEMENT HEAD
+        \nShubham Rana
+        \n\nHEAD TECHNICAL EVENT
+        \nAlok
+        \nHEAD NON TECHNICAL
+        \nRaj and Ritesh
+        \nCORPORATE HEAD
+        \nDoris Kumar
+        \nLOGISTICS HEAD
+        \nRohan
+        \nDESIGN HEAD
+        \nTarun
+        \nAPP-DEVELOPEMENT HEAD
+        \nAditya Gupta
+        \nWEB-DEVELOPEMENT HEAD
+        \nVaibhav Ahuja
+        \nDIGITAL MARKETING HEAD
+        \nUtkarsh Bajaj
+        \nPUBLICITY AND PR HEAD
+        \nMitul Govil
+        \nRaunak Kapur
+        \nEVENT MANAGEMENT CO-HEAD
+        \nSamyak Jain
+        \nTECHNICAL EVENT
+        \nNida-e-Falak
+        \nCORPORATE
+        \nRishav Dokania
+        \nYogshreshta
+        \nAnkit
+        \nLOGISTICS
+        \nPranjal Pant
+        \nAbhishek
+    </string>
+
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_my_events">My Events</string>
+    <string name="title_activity_home_v2">Home</string>
+    <string name="title_activity_fest_council">Fest Council</string>
+
+    <string name="Chasing2">10th February 2017</string>
+
+    <string name="Silicon2">10th February 2017</string>
+
+    <string name="Bend2">10th February 2017</string>
+
+    <string name="Quizzards2">10th February 2017</string>
+
+    <string name="Java2"><b>Preliminary round</b>\n8th February 2017\n9 PM\n\n<b>Offline Round</b>\n10th February 2017\n
+    10 AM to 12 Noon\n\n<b>Online Round</b>\n10th February 2017\n3 PM to 5 PM</string>
+
+    <string name="Botzilla2">10th February 2017</string>
+
+    <string name="Fast2">11th February 2017</string>
+
+    <string name="Simulate2">10th February 2017</string>
+
+    <string name="IC2">10th February 2017</string>
+
+    <string name="Crack2">10th February 2017</string>
+
+    <string name="Fastest2">10th February 2017</string>
+
+    <string name="Code2">10th February 2017</string>
+
+    <string name="Quidditch2">11th February 2017</string>
+
+    <string name="Bomb2">10th February 2017</string>
+
+    <string name="Mock2">10th February 2017</string>
+
+    <string name="Creating2">11th February 2017</string>
+
+    <string name="Eureka2">10th February 2017</string>
+
+    <string name="Pull2">10th February 2017</string>
+
+
+
+    <string name="Chasing3">TW3 FF1</string>
+
+    <string name="Silicon3">TW3 GF2</string>
+
+    <string name="Bend3">Mech Lawn 2</string>
+
+    <string name="Quizzards3">TW2 GF1</string>
+
+    <string name="Java3"><b>Preliminary round</b>\nHackerEarth\n\n<b>Offline Round</b>\nTW4 GF2\n\n
+        <b>Online Round</b>\nComputer Centre</string>
+
+    <string name="Botzilla3">Civil Parking</string>
+
+    <string name="Fast3">Open Air Theatre (OAT)</string>
+
+    <string name="Simulate3">TW3GF4</string>
+
+    <string name="IC3">Juice Pavement</string>
+
+    <string name="Crack3">Computer Centre</string>
+
+    <string name="Fastest3">Big V</string>
+
+    <string name="Code3">Computer Centre</string>
+
+    <string name="Quidditch3">Open Air Theatre (OAT)</string>
+
+    <string name="Bomb3">Mech Lawn 2</string>
+
+    <string name="Mock3">SPS 14</string>
+
+    <string name="Creating3">Auditorium (AUDI)</string>
+
+    <string name="Eureka3">Seminar Hall</string>
+
+    <string name="Pull3">Mech Lawn 2</string>
+
+
+</resources>

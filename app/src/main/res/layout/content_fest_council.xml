@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_fest_council"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="#AA000000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.srdtu.srdtu.FestCouncil"
+    tools:showIn="@layout/activity_fest_council">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/council_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:textSize="25sp"
+            android:typeface="monospace"
+            android:textColor="#FFFFFF"
+            android:text="The Council"
+            android:layout_centerHorizontal="true"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_toLeftOf="@id/council_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_star_black_24dp"
+            android:tint="#FFFFFF"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_toRightOf="@id/council_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_star_black_24dp"
+            android:layout_centerVertical="true"
+            android:tint="#FFFFFF"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Council Convenor"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vaanshik Mahindroo"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="President"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eklovey Verma"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vice President"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nakul Sharma"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treasurer"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shefali Awana"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Joint Treasurer"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prateek Bhagat"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fest Coordinator"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Devina Gupta"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HEADS"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Event Management"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shubham Rana"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technical Event"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorregistertext"
+            android:textStyle="bold"
+            android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alok"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Non Technical"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Raj"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ritesh"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Corporate"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doris Kumar"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logistics"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rohan"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Design"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarun"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="App Development"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aditya Gupta"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Web Development"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vaibhav Ahuja"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aprajita"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Publicity and PR"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mitul Govil"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Raunak Kapur"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Digital Marketing"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Utkarsh Bajaj"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Creative Head"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vansh Srivastava"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akshita Gupta"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CO HEADS"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Event Management"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Samyak Jain"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Huner"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Technical Event"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nida-e-Falak"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Corporate"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rishav Dokania"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yogshreshta"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ankit"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logistics"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorregistertext"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pranjal Pant"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abhishek"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorregistertext"
+                android:typeface="monospace"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

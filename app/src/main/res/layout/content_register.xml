@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="#AA000000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.srdtu.srdtu.Register"
+    tools:showIn="@layout/activity_register">
+
+    <TextView
+        android:id="@+id/register_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorregistertext"
+        android:textSize="25sp"
+        android:text="Event"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:typeface="normal"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/register_name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/colorregistertext"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/register_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorregisterhint"
+                android:hint="Your name here"
+                android:typeface="monospace"
+                android:layout_marginTop="10dp"
+                android:maxLines="1"
+                android:textColor="@color/colorregistertext"
+                android:inputType="textPersonName|textCapWords" />
+
+            <TextView
+                android:id="@+id/register_email_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Email ID"
+                android:textColor="@color/colorregistertext"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/register_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorregisterhint"
+                android:hint="Your Email ID here"
+                android:typeface="monospace"
+                android:layout_marginTop="10dp"
+                android:maxLines="2"
+                android:textColor="@color/colorregistertext"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/register_contact_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textColor="@color/colorregistertext"
+            android:textSize="20sp"
+            android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/register_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorregisterhint"
+                android:hint="Phone Number here"
+                android:typeface="monospace"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:inputType="phone" />
+
+            <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/register_college_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="College"
+            android:textColor="@color/colorregistertext"
+            android:textSize="20sp"
+            android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/register_college"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorregisterhint"
+                android:hint="Your College here"
+                android:typeface="monospace"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/register_branch_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Branch"
+                android:textColor="@color/colorregistertext"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/register_branch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorregisterhint"
+                android:hint="Your Branch here"
+                android:typeface="monospace"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/register_year_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Year"
+                android:textColor="@color/colorregistertext"
+                android:textSize="20sp"
+                android:textStyle="italic|bold" />
+
+            <EditText
+                android:id="@+id/register_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorregisterhint"
+                android:hint="Year here"
+                android:typeface="monospace"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorregistertext"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="* All fields need to be filled"
+                android:textColor="#FF0000"
+                android:textSize="12sp"
+                android:textStyle="italic|bold" />
+
+            <Button
+                android:id="@+id/register_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="R E G I S T E R"
+                android:textSize="15sp"
+                android:typeface="monospace"
+                android:textAlignment="center"
+                android:background="@color/colorAccent"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
